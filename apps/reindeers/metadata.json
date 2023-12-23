@@ -1,11 +1,13 @@
-{ "id": "reindeers",
-  "name": "yipee app",
-  "shortName":"Hooray",
-  "version":"0.01",
-  "description": "A detailed description of my great app",
+{
+  "id": "reindeers",
+  "name": "Reindeer Clock",
+  "version": "0.01",
+  "description": "reindeer instead of a wave",
   "icon": "app.png",
-  "tags": "",
-  "supports" : ["BANGLEJS2"],  
+  "screenshots": [{"url":"screenshot.png"}],
+  "type": "clock",
+  "tags": "clock",
+  "supports": ["BANGLEJS","BANGLEJS2"],
   "storage": [
     {"name":"reindeers.app.js","url":"app.js"},
     {"name":"reindeers.img","url":"app-icon.js","evaluate":true}
