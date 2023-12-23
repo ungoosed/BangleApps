@@ -1,0 +1,17 @@
+{
+  "id": "wavereindeer",
+  "name": "Wave Reindeer",
+  "version": "0.03",
+  "description": "A reindeer haha",
+  "icon": "app.png",
+  "screenshots": [{"url":"screenshot.png"}],
+  "type": "clock",
+  "tags": "clock",
+  "supports": ["BANGLEJS","BANGLEJS2"],
+  "readme": "README.md",
+  "allow_emulator": true,
+  "storage": [
+    {"name":"wavereindeer.app.js","url":"app.js"},
+    {"name":"wavereindeer.img","url":"app-icon.js","evaluate":true}
+  ]
+}
