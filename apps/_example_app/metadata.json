@@ -1,6 +1,6 @@
 { "id": "7chname",
-  "name": "My app's human readable name",
-  "shortName":"Short Name",
+  "name": "yipee app",
+  "shortName":"Hooray",
   "version":"0.01",
   "description": "A detailed description of my great app",
   "icon": "app.png",
