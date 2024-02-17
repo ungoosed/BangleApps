@@ -57,7 +57,7 @@ function draw() {
 }
 
 // Clear the screen once, at startup
-g.setTheme({bg:"#f0f",fg:"#fff",dark:true}).clear();
+g.setTheme({bg:"#f0f",fg:"#000",dark:true}).clear();
 // draw immediately at first, queue update
 draw();
 // Stop updates when LCD is off, restart when on
