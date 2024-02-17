@@ -30,13 +30,8 @@ function draw() {
   var y = 24+20;
 
   g.reset().clearRect(0,24,g.getWidth(),g.getHeight()-IMAGEHEIGHT);
-  if (g.getWidth() == IMAGEWIDTH)
-    g.drawImage(getImg(),0,g.getHeight()-IMAGEHEIGHT);
-  else {
-    let scale = g.getWidth()/IMAGEWIDTH;
-    y *= scale;
-    g.drawImage(getImg(),0,g.getHeight()-IMAGEHEIGHT*scale,{scale:scale});
-  }
+    g.drawImage(getImg(),0,0);
+
   // work out locale-friendly date/time
   var date = new Date();
   var timeStr = require("locale").time(date,1);
