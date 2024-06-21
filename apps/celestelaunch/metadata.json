@@ -1,0 +1,19 @@
+{
+    "id": "celestelaunch",
+    "name": "Celeste Launcher",
+    "version": "0.1",
+    "description": "App Launcher themed with the Celeste Game Menu",
+    "screenshots": [{"url":"shot1.png"},{"url":"shot2.png"},{"url":"shot3.png"}],
+    "icon": "icon.png",
+    "type": "launch",
+    "tags": "tool,system,launcher",
+    "supports": ["BANGLEJS2"],
+    "readme": "README.md",
+    "storage": [
+      {"name":"celestelaunch.app.js","url":"app.js", "supports": ["BANGLEJS2"]},
+      {"name":"celestelaunch.settings.js","url":"settings.js", "supports": ["BANGLEJS2"]},
+      {"name":"celestelaunch.img","url":"app-icon.js","evaluate":true}
+    ],
+    "data": [{"name":"celestelaunch.json"}]
+  }
+  
